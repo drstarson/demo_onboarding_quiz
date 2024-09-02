@@ -13,7 +13,7 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello World Test!")
+            Text("Hello World Test 2!")
         }
         .padding()
     }
