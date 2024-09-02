@@ -1,0 +1,92 @@
+# Xcode
+#
+build/
+DerivedData/
+*.xcworkspace
+!default.xcworkspace
+xcuserdata/
+*.xcuserstate
+*.moved-aside
+*.xcuserdatad
+*.xcscmblueprint
+
+# Swift Package Manager
+#
+Packages
+.swiftpm
+.build/
+
+# CocoaPods
+#
+Pods/
+Podfile.lock
+*.xcworkspace
+
+# Carthage
+#
+Carthage/Build/
+
+# Accio dependency management
+#
+Dependencies/
+.accio/
+
+# fastlane
+#
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/readme.md
+
+# Code Injection
+#
+iOSInjectionProject/
+
+# AppCode
+#
+.idea/
+
+# Other
+#
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# SwiftUI preview
+#
+.swiftpm/xcode/package.xcworkspace/xcuserdata
+
+# Temporary files
+#
+*.tmp
+*.temp
+
+# macOS
+#
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
