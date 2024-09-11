@@ -12,7 +12,6 @@ struct GenderSurveyView: View {
             Picker("Gender", selection: $gender) {
                 Text("Male").tag("Male")
                 Text("Female").tag("Female")
-                Text("Non-binary").tag("Non-binary")
                 Text("Prefer not to say").tag("Prefer not to say")
             }
             .pickerStyle(WheelPickerStyle())
@@ -28,7 +27,7 @@ struct GenderSurveyView: View {
         }
         .padding()
         .fullScreenCover(isPresented: $showNextScreen) {
-            Text("Survey Complete!") // Placeholder for the next screen or completion
+            WeightSurveyView() // Change this line
         }
     }
     

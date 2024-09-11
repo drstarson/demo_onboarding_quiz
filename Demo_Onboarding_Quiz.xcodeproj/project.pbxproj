@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3BA84FD22C8D34CF00A3BD07 /* AgeSurveyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA84FD02C8D34CF00A3BD07 /* AgeSurveyView.swift */; };
 		3BA84FD32C8D34CF00A3BD07 /* GenderSurveyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA84FD12C8D34CF00A3BD07 /* GenderSurveyView.swift */; };
+		3BBAA26F2C91663000699B76 /* WeightSurveyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBAA26E2C91663000699B76 /* WeightSurveyView.swift */; };
 		3BC130EC2C85748100BF949E /* Demo_Onboarding_QuizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC130EB2C85748100BF949E /* Demo_Onboarding_QuizApp.swift */; };
 		3BC130EE2C85748100BF949E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC130ED2C85748100BF949E /* ContentView.swift */; };
 		3BC130F02C85748300BF949E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BC130EF2C85748300BF949E /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* Begin PBXFileReference section */
 		3BA84FD02C8D34CF00A3BD07 /* AgeSurveyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgeSurveyView.swift; sourceTree = "<group>"; };
 		3BA84FD12C8D34CF00A3BD07 /* GenderSurveyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenderSurveyView.swift; sourceTree = "<group>"; };
+		3BBAA26E2C91663000699B76 /* WeightSurveyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeightSurveyView.swift; sourceTree = "<group>"; };
 		3BC130E82C85748100BF949E /* Demo_Onboarding_Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo_Onboarding_Quiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BC130EB2C85748100BF949E /* Demo_Onboarding_QuizApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo_Onboarding_QuizApp.swift; sourceTree = "<group>"; };
 		3BC130ED2C85748100BF949E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 		3BC130EA2C85748100BF949E /* Demo_Onboarding_Quiz */ = {
 			isa = PBXGroup;
 			children = (
+				3BBAA26E2C91663000699B76 /* WeightSurveyView.swift */,
 				3BA84FD02C8D34CF00A3BD07 /* AgeSurveyView.swift */,
 				3BA84FD12C8D34CF00A3BD07 /* GenderSurveyView.swift */,
 				3BC130EB2C85748100BF949E /* Demo_Onboarding_QuizApp.swift */,
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BBAA26F2C91663000699B76 /* WeightSurveyView.swift in Sources */,
 				3BC130EE2C85748100BF949E /* ContentView.swift in Sources */,
 				3BA84FD22C8D34CF00A3BD07 /* AgeSurveyView.swift in Sources */,
 				3BC130EC2C85748100BF949E /* Demo_Onboarding_QuizApp.swift in Sources */,
