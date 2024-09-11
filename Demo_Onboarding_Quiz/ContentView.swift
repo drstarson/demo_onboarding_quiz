@@ -15,9 +15,9 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Welcome to Our App!")
+            Text("Welcome to Passio Nutrition-AI App!")
                 .font(.title)
-            Text("We'd like to know a bit about you!")
+            Text("Let's get started with a quick survey!")
                 .font(.subheadline)
             
             Button("Get Started") {
