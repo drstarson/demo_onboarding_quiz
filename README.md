@@ -1,1 +1,1 @@
-A demo app for user onboarding flows and quizes
+A demo app for user onboarding flows and quizes. Test ground.
