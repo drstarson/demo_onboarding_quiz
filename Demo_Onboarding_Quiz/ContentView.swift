@@ -11,24 +11,41 @@ struct ContentView: View {
     @State private var showSurvey = false
 
     var body: some View {
-        VStack(spacing: 20) {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Welcome to Passio Nutrition-AI App!")
-                .font(.title)
-            Text("Let's get started with a quick survey!")
-                .font(.subheadline)
+        ZStack {
+            // Background Image
+            Image("LandingImg")
+                .resizable()
+                .aspectRatio(contentMode: .fill)
+                .edgesIgnoringSafeArea(.all)
             
-            Button("Get Started") {
-                showSurvey = true
+            VStack {
+                Spacer()
+                
+                VStack(spacing: 20) {
+                    Text("Welcome to Passio Nutrition-AI App!")
+                        .font(.system(size: 28, weight: .bold))
+                        .multilineTextAlignment(.center)
+                        .foregroundColor(.white)
+                        .padding(.horizontal, 20)
+                        .fixedSize(horizontal: false, vertical: true)
+                    
+                    Text("Let's get started with a quick survey!")
+                        .font(.system(size: 16))
+                        .foregroundColor(.white)
+                    
+                    Button("Get Started") {
+                        showSurvey = true
+                    }
+                    .padding(.horizontal, 30)
+                    .padding(.vertical, 15)
+                    .background(Color.blue)
+                    .foregroundColor(.white)
+                    .cornerRadius(10)
+                }
+                .padding(.horizontal, 40)
+                .padding(.bottom, 50) // Add some bottom padding
             }
-            .padding()
-            .background(Color.blue)
-            .foregroundColor(.white)
-            .cornerRadius(10)
         }
-        .padding()
         .fullScreenCover(isPresented: $showSurvey) {
             AgeSurveyView()
         }
