@@ -22,7 +22,7 @@ struct ContentView: View {
                 Spacer()
                 
                 VStack(spacing: 20) {
-                    Text("Welcome to Passio Nutrition-AI App!")
+                    Text("Welcome to Passio Nutrition-AI Onboarding App!")
                         .font(.system(size: 28, weight: .bold))
                         .multilineTextAlignment(.center)
                         .foregroundColor(.white)
