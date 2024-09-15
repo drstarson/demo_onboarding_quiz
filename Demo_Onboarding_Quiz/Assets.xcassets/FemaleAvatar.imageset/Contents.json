@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "drstarson_httpss.mj.runDne1HRaXBrM_a_3D_female_avatar_--v_6.1_f525aa4d-71b4-4a3f-a1d6-4b9c939375a5_3.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "drstarson_httpss.mj.runDne1HRaXBrM_a_3D_female_avatar_--v_6.1_f525aa4d-71b4-4a3f-a1d6-4b9c939375a5_3 1.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "drstarson_httpss.mj.runDne1HRaXBrM_a_3D_female_avatar_--v_6.1_f525aa4d-71b4-4a3f-a1d6-4b9c939375a5_3 2.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

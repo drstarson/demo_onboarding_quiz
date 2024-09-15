@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "drstarson_Pan_galactic_multi-dimensional_nebula_and_planets_ove_e9caa5fd-a041-4557-ab08-9d92c39be1f2.png",
+      "filename" : "splash_1x.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "drstarson_Pan_galactic_multi-dimensional_nebula_and_planets_ove_e9caa5fd-a041-4557-ab08-9d92c39be1f2 1.png",
+      "filename" : "splash_2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "drstarson_Pan_galactic_multi-dimensional_nebula_and_planets_ove_e9caa5fd-a041-4557-ab08-9d92c39be1f2 2.png",
+      "filename" : "splash_3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
