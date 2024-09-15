@@ -26,20 +26,18 @@ struct GenderSurveyView: View {
             }
             .foregroundColor(selectedGender == .notSpecified ? .blue : .gray)
             
-            Button("Next") {
-                saveGender()
-                showNextScreen = true
+            NavigationLink(destination: WeightSurveyView()) {
+                Text("Next")
+                    .padding()
+                    .background(Color.blue)
+                    .foregroundColor(.white)
+                    .cornerRadius(10)
             }
-            .padding()
-            .background(Color.blue)
-            .foregroundColor(.white)
-            .cornerRadius(10)
             .disabled(selectedGender == .notSpecified)
         }
         .padding()
-        .fullScreenCover(isPresented: $showNextScreen) {
-            WeightSurveyView()
-        }
+        .navigationBarTitle("Gender", displayMode: .inline)
+        .navigationBarBackButtonHidden(false)
     }
     
     private func saveGender() {

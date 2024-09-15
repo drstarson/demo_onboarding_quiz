@@ -11,6 +11,7 @@ struct WeightSurveyView: View {
         VStack(spacing: 20) {
             Text("Weight Information")
                 .font(.title)
+                .fontWeight(.bold)
             
             VStack {
                 Text("Current Weight: \(Int(currentWeight)) lbs")
@@ -26,19 +27,20 @@ struct WeightSurveyView: View {
             }
             .padding()
             
-            Button("Next") {
-                saveWeightInfo()
-                showNextScreen = true
+            NavigationLink(destination: Text("Welcome to Passio!"), isActive: $showNextScreen) {
+                Button("Next") {
+                    saveWeightInfo()
+                    showNextScreen = true
+                }
+                .padding()
+                .background(Color.blue)
+                .foregroundColor(.white)
+                .cornerRadius(10)
             }
-            .padding()
-            .background(Color.blue)
-            .foregroundColor(.white)
-            .cornerRadius(10)
         }
         .padding()
-        .fullScreenCover(isPresented: $showNextScreen) {
-            Text("Welcome to Passio!") // Placeholder for the next screen or completion
-        }
+        .navigationBarTitle("Weight", displayMode: .inline)
+        .navigationBarBackButtonHidden(false)
     }
     
     private func saveWeightInfo() {
@@ -49,6 +51,8 @@ struct WeightSurveyView: View {
 
 struct WeightSurveyView_Previews: PreviewProvider {
     static var previews: some View {
-        WeightSurveyView()
+        NavigationView {
+            WeightSurveyView()
+        }
     }
 }
